@@ -7,8 +7,6 @@ edition = "2021"
 
 [package.metadata.nix]
 build = true
-app = true
-library = false
 systems = [
     "aarch64-linux",
     "aarch64-darwin",
