@@ -8,5 +8,9 @@
   outputs = { self, nixpkgs, nci }:
     nci.lib.makeOutputs {
       root = ./.;
+      defaultOutputs = {
+        app = "rustywatch";
+        package = "rustywatch";
+      };
     };
 }
